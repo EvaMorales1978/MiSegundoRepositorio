@@ -1,10 +1,25 @@
 package cuentas;
+
+/**
+ * 
+ * Implementa un programa en el q podemos operar con una cuenta bancaria
+ * sacando e ingresando dinero.
+ * @author entornos
+ * @version 1.0
+ * @since Marzo 2023 
+ *
+ */
 public class Main {
 
     public static void main(String[] args) {
         opertiva_cuenta(2300);
     }
-
+    
+    /**
+     * Se define una cuenta, en la que se retira una cantidad pasada como parametro
+     * y se ingresa una cantidad fija.
+     * @param cantidad, cantidad a retirar
+     */
 	private static void opertiva_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
